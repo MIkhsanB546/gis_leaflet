@@ -1,0 +1,120 @@
+INFO - 2023-06-03 01:24:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-03 01:26:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-03 01:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-03 01:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-03 01:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-03 01:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-03 01:34:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-03 01:45:34 --> Too few arguments to function App\Models\ModelLokasi::getAllData(), 0 passed in C:\xampp\htdocs\gis_leaflet\app\Controllers\Lokasi.php on line 100 and exactly 1 expected
+in APPPATH\Models\ModelLokasi.php on line 15.
+ 1 APPPATH\Controllers\Lokasi.php(100): App\Models\ModelLokasi->getAllData()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->pemetaanLokasi()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-03 01:45:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-03 01:45:44 --> Too few arguments to function App\Models\ModelLokasi::getAllData(), 0 passed in C:\xampp\htdocs\gis_leaflet\app\Controllers\Lokasi.php on line 100 and exactly 1 expected
+in APPPATH\Models\ModelLokasi.php on line 15.
+ 1 APPPATH\Controllers\Lokasi.php(100): App\Models\ModelLokasi->getAllData()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->pemetaanLokasi()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 01:48:11 --> Too few arguments to function App\Models\ModelLokasi::getAllData(), 0 passed in C:\xampp\htdocs\gis_leaflet\app\Controllers\Lokasi.php on line 100 and exactly 1 expected
+in APPPATH\Models\ModelLokasi.php on line 15.
+ 1 APPPATH\Controllers\Lokasi.php(100): App\Models\ModelLokasi->getAllData()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->pemetaanLokasi()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-03 01:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-03 01:50:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-03 01:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-03 01:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-03 01:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-03 01:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-03 01:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-03 01:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-03 03:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-03 03:51:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-03 03:51:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-03 03:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-03 03:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-03 05:38:25 --> Undefined variable $id_lokasi
+in APPPATH\Controllers\Lokasi.php on line 111.
+ 1 APPPATH\Controllers\Lokasi.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_lokasi', 'C:\\xampp\\htdocs\\gis_leaflet\\app\\Controllers\\Lokasi.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->editLokasi('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-03 05:41:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-03 05:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-03 05:42:05 --> Undefined variable $id_lokasi
+in APPPATH\Controllers\Lokasi.php on line 111.
+ 1 APPPATH\Controllers\Lokasi.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_lokasi', 'C:\\xampp\\htdocs\\gis_leaflet\\app\\Controllers\\Lokasi.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->editLokasi('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-03 05:49:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-03 05:49:36 --> Too few arguments to function App\Models\ModelLokasi::getDataById(), 0 passed in C:\xampp\htdocs\gis_leaflet\app\Controllers\Lokasi.php on line 111 and exactly 1 expected
+in APPPATH\Models\ModelLokasi.php on line 22.
+ 1 APPPATH\Controllers\Lokasi.php(111): App\Models\ModelLokasi->getDataById()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->editLokasi('4')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 05:50:10 --> Undefined variable $id_lokasi
+in APPPATH\Controllers\Lokasi.php on line 111.
+ 1 APPPATH\Controllers\Lokasi.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_lokasi', 'C:\\xampp\\htdocs\\gis_leaflet\\app\\Controllers\\Lokasi.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->editLokasi('4')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-03 05:51:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-03 05:51:03 --> Trying to access array offset on value of type null
+in APPPATH\Views\lokasi\v_edit_lokasi.php on line 16.
+ 1 APPPATH\Views\lokasi\v_edit_lokasi.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis_leaflet\\app\\Views\\lokasi\\v_edit_lokasi.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\gis_leaflet\\app\\Views\\lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(176): view('lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\gis_leaflet\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(113): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->editLokasi('4')
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-03 05:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-03 05:51:42 --> Undefined constant "id_lokasi"
+in APPPATH\Views\lokasi\v_edit_lokasi.php on line 16.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/v_edit_lokasi', [], true)
+ 4 APPPATH\Views\v_template.php(176): view('lokasi/v_edit_lokasi')
+ 5 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\gis_leaflet\\app\\Views\\v_template.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template', [], true)
+ 8 APPPATH\Controllers\Lokasi.php(113): view('v_template', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->editLokasi('4')
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-03 05:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-03 05:51:49 --> Trying to access array offset on value of type null
+in APPPATH\Views\lokasi\v_edit_lokasi.php on line 16.
+ 1 APPPATH\Views\lokasi\v_edit_lokasi.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gis_leaflet\\app\\Views\\lokasi\\v_edit_lokasi.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\gis_leaflet\\app\\Views\\lokasi\\v_edit_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/v_edit_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(176): view('lokasi/v_edit_lokasi')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\gis_leaflet\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(113): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->editLokasi('4')
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
