@@ -43,7 +43,8 @@
         L.marker([<?= $value['latitude'] ?>, <?= $value['longitude'] ?>], {icon: marker})
         .bindPopup('<img src="<?= base_url('foto/' . $value['foto_lokasi']) ?>" width="250px"><br>' +
             '<h4><?= $value['nama_lokasi'] ?></h4>' + 
-            'Alamat : <?= $value['alamat_lokasi'] ?>')
+            'Alamat : <?= $value['alamat_lokasi'] ?><br>' +
+            '<a href="<?= base_url('Lokasi/ruteLokasi/' . $value['id_lokasi']) ?>">Rute</a>')
         .addTo(map);
     <?php } ?>
 </script>

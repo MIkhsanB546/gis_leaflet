@@ -15,10 +15,7 @@
                     <th>Alamat</th>
                     <th>Coordinat</th>
                     <th>Foto</th>
-                    <?php if (session()->get('role') === 'admin') : ?>
                     <th>Aksi</th>
-                    <?php else : ?>
-                    <?php endif ?>
                 </tr>
             </thead>
             <tbody>
@@ -30,13 +27,13 @@
                         <td><?= $value['alamat_lokasi'] ?></td>
                         <td><?= $value['latitude'] ?>, <?= $value['longitude'] ?></td>
                         <td><img src="<?= base_url('foto/' . $value['foto_lokasi']) ?>" width="200px"></td>
-                        <?php if (session()->get('role') === 'admin') : ?>
                         <td>
+                            <a href="<?= base_url('Lokasi/ruteLokasi/' . $value['id_lokasi']) ?>" class="btn btn-success"><i class="fa-solid fa-route"></i></a>
+                            <?php if (session()->get('role') === 'admin') : ?>
                             <a href="<?= base_url('Lokasi/editLokasi/' . $value['id_lokasi']) ?>" class="btn btn-warning"><i class="fa-solid fa-pen-to-square"></i></a>
                             <a href="<?= base_url('Lokasi/deleteLokasi/' . $value['id_lokasi']) ?>" class="btn btn-danger" onclick="return confirm('Yakin Hapus Data ?')"><i class="fa-solid fa-trash"></i></a>
+                            <?php endif ?>
                         </td>
-                        <?php else : ?>
-                        <?php endif ?>
                     </tr>
                 <?php } ?>
             </tbody>

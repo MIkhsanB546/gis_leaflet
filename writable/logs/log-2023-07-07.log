@@ -1,0 +1,46 @@
+INFO - 2023-07-07 03:16:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 03:16:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-07 03:16:19 --> Undefined variable $value
+in APPPATH\Views\lokasi\v_rute_lokasi.php on line 48.
+ 1 APPPATH\Views\lokasi\v_rute_lokasi.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value', 'C:\\xampp\\htdocs\\gis_leaflet\\app\\Views\\lokasi\\v_rute_lokasi.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\gis_leaflet\\app\\Views\\lokasi\\v_rute_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/v_rute_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(177): view('lokasi/v_rute_lokasi')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\gis_leaflet\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(208): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->ruteLokasi('12')
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-07 03:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 03:18:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 03:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 03:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-07 03:20:12 --> Undefined variable $value
+in APPPATH\Views\lokasi\v_rute_lokasi.php on line 20.
+ 1 APPPATH\Views\lokasi\v_rute_lokasi.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value', 'C:\\xampp\\htdocs\\gis_leaflet\\app\\Views\\lokasi\\v_rute_lokasi.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\gis_leaflet\\app\\Views\\lokasi\\v_rute_lokasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lokasi/v_rute_lokasi', [], true)
+ 5 APPPATH\Views\v_template.php(177): view('lokasi/v_rute_lokasi')
+ 6 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\gis_leaflet\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Lokasi.php(208): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Lokasi->ruteLokasi('12')
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-07 03:42:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 03:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 03:42:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 03:43:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 03:43:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 03:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 03:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 03:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 03:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 03:44:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

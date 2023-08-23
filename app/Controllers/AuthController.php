@@ -112,13 +112,13 @@ class AuthController extends BaseController
                     'required' => 'Email harus diisi',
                     'valid_email' => 'Email anda tidak valid',
                 ]
-                ],
-                'password' => [
-                    'rules' => 'required',
-                    'errors' => [
-                        'required' => 'Password harus diisi',
-                    ]
+            ],
+            'password' => [
+                'rules' => 'required',
+                'errors' => [
+                    'required' => 'Password harus diisi',
                 ]
+            ]
         ];
         return $setRules;
     }

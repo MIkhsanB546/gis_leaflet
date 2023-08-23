@@ -73,10 +73,10 @@
                         <div class="nav">
                             <!-- <div class="sb-sidenav-menu-heading">Core</div> -->
 
-                            <!-- <a class="nav-link mt-4" href="<?= base_url('Home') ?>">
+                            <a class="nav-link mt-4" href="<?= base_url('Home') ?>">
                                 <div class="sb-nav-link-icon"><i class="fa-solid fa-house"></i></div>
-                                Dashboard
-                            </a> -->
+                                Tentang Kami
+                            </a>
 
                             <a class="nav-link mt-4" href="<?= base_url('lokasi/pemetaanLokasi') ?>">
                                 <div class="sb-nav-link-icon"><i class="fa-solid fa-map-location-dot"></i></div>
@@ -88,7 +88,6 @@
                                 <div class="sb-nav-link-icon"><i class="fa-solid fa-file-arrow-down"></i></div>
                                 Input Lokasi
                             </a>
-                            <?php else : ?>
                             <?php endif ?>
                             
                             <a class="nav-link" href="<?= base_url('lokasi/index') ?>">
@@ -171,7 +170,7 @@
             <div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid px-4">
-                        <h3 class="mt-4"> <?= $judul ?></h3>
+                        <h4 class="mt-4"> <?= $judul ?></h4>
                         <hr>
                         <?php if ($page) {
                             echo view($page);

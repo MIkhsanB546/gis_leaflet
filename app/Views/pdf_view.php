@@ -21,10 +21,7 @@
 </head>  
 
 <body>  
-    <h2>Data Aplikasi</h2>
-    <a href="<?php echo site_url('pdf/generate') ?>">  
-        Download PDF  
-    </a><br><br>
+    <h2>Data Aplikasi</h2><br>
     <div>
         <img src="<?= base_url('gambar/pdf/Screenshot (22).png') ?>" width="400px"><br>
         <img src="<?= base_url('gambar/pdf/Screenshot (23).png') ?>" width="400px"><br>
